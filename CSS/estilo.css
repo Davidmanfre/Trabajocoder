@@ -28,6 +28,7 @@ h2 {
   width: auto;
   cursor: pointer;
   transition: all 0.3s;
+  border-radius: 50%;
 }
 
 .imglogo:hover {
@@ -145,15 +146,17 @@ h2 {
   width: 80%;
   margin: auto;
   justify-content: space-between;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 10%;
   gap: 10%;
   text-align: justify;
   align-items: center;
+  transition: 1s;
 }
 
 .index1:hover {
   transform: scale(1.1);
+  background-color: #d1d1c6;
 }
 
 .index2 img {
@@ -169,15 +172,17 @@ h2 {
   width: 80%;
   margin: auto;
   margin-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   gap: 10%;
   text-align: justify;
   justify-content: space-between;
   align-items: center;
+  transition: 1s;
 }
 
 .index2:hover {
   transform: scale(1.1);
+  background-color: #d1d1c6;
 }
 
 /* Formulario de contacto */
@@ -371,7 +376,35 @@ h2 {
   }
 }
 
+/* MOTORES */
+/* Iframes */
+/* .videomarcas {
+  display: block;
+  margin: 0 auto;
+}
 
+.embed-responsive {
+  max-width: 560px;
+  margin: 0 auto;
+} */
+.main-container{
+  width: 50%;
+  margin: auto;
+  border: 1px solid;
+  height: 100px;
+  padding-top: 40%;
+  position: relative;
+}
+
+.main-container iframe{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
 
 /* Experiencias titulos animados */
 .tipeo{
@@ -379,12 +412,7 @@ h2 {
   align-items: center;
   justify-content: center;
 }
-/* MEDIA QUERY */
-/* @media screen and (max-width: 1024px){
-    .nav-links{
-        display: none;
-    }
-  } */
+
 
 @media screen and (max-width: 660px) {
   .index1 {
