@@ -156,7 +156,7 @@ h2 {
 
 .index1:hover {
   transform: scale(1.1);
-  background-color: #d1d1c6;
+  background-color: #d0a9da;
 }
 
 .index2 img {
@@ -182,7 +182,7 @@ h2 {
 
 .index2:hover {
   transform: scale(1.1);
-  background-color: #d1d1c6;
+  background-color: #d0a9da;
 }
 
 /* Formulario de contacto */
@@ -378,15 +378,7 @@ h2 {
 
 /* MOTORES */
 /* Iframes */
-/* .videomarcas {
-  display: block;
-  margin: 0 auto;
-}
 
-.embed-responsive {
-  max-width: 560px;
-  margin: 0 auto;
-} */
 .main-container{
   width: 50%;
   margin: auto;
@@ -406,6 +398,23 @@ h2 {
   width: 100%;
 }
 
+/* imagenes */
+
+.marcasmotor{
+  height: 100%;
+  width: 100%;
+
+}
+.marcasmotor img{
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+  display: block;
+}
+.imgyamaha{
+  object-position: 0 38%;
+}
+
 /* Experiencias titulos animados */
 .tipeo{
   display: flex;
@@ -413,6 +422,8 @@ h2 {
   justify-content: center;
 }
 
+
+/* Medias */
 
 @media screen and (max-width: 660px) {
   .index1 {
