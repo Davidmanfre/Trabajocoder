@@ -1,0 +1,36 @@
+@media screen and (max-width: 660px) {
+	.index1 {
+		flex-direction: column;
+		margin: 12%;
+	}
+	.index2 {
+		flex-direction: column;
+		margin: 12%;
+	}
+}
+@media (max-width: 767px) {
+	.header-section {
+		height: 300px;
+		img {
+			height: 300px;
+		}
+	}
+	.galeria {
+		img {
+			width: 50%;
+		}
+	}
+}
+@media only screen and (max-width: 500px) {
+	.marcasmotor {
+		height: 20vh;
+		margin-bottom: 10vh;
+		margin-top: 12vh;
+		img {
+			height: auto;
+		}
+	}
+	.imgyamaha {
+		object-position: 0 0;
+	}
+}
